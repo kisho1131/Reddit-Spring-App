@@ -1,5 +1,6 @@
 package com.redditapp.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.NoArgsConstructor;
 
@@ -8,6 +9,7 @@ import javax.validation.constraints.NotEmpty;
 import java.time.Instant;
 
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Builder
 public class Comment {

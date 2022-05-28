@@ -19,7 +19,7 @@ import java.time.Instant;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long userId;
+    private Long userId;
     @NotBlank(message = "UserName is Required")
     private String userName;
     @NotBlank(message = "Password is required")

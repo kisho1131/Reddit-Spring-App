@@ -18,4 +18,9 @@ public class VerificationToken {
     private User user;
     private Instant expiaryDate;
 
+    public void setToken(String token) {
+    }
+
+    public void setuser(User user) {
+    }
 }
